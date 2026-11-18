@@ -1,0 +1,98 @@
+header {
+    background-color: #168A91;
+    padding: 20px;
+}
+
+nav {
+    background-color: #163A4A;
+    color: white;
+    padding: 15px;
+}
+
+footer {
+    background-color: #163A4A;
+    color: white;
+    padding: 20px;
+}
+
+/* Diseño para ordenador */
+@media screen and (min-width: 1200px) {
+    body {
+        font-family: Arial;
+    }
+
+    header {
+        background-color: #168A91;
+        padding: 20px;
+    }
+
+    nav {
+        background-color: #163A4A;
+        color: white;
+        padding: 15px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    section {
+        background-color: #EAF5F4;
+        width: 70%;
+        float: left;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    aside {
+        background-color: lightgray;
+        width: 30%;
+        float: left;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    footer {
+        background-color: #163A4A;
+        color: white;
+        padding: 20px;
+        clear: both;
+    }
+}
+
+/* Diseño para tablet */
+@media screen and (min-width: 700px) and (max-width: 1199px) {
+    body {
+        font-family: Calibri;
+    }
+
+    section {
+        background-color: #EAF5F4;
+        width: 65%;
+        float: left;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    aside {
+        background-color: lightgray;
+        width: 35%;
+        float: left;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+}
+
+/* Diseño para móvil */
+@media screen and (max-width: 699px) {
+    body {
+        font-family: "Times New Roman";
+    }
+
+    section,
+    aside {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+}

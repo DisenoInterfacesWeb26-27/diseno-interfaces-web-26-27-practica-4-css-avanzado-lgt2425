@@ -1,0 +1,9 @@
+@media print {
+    header,
+    footer,
+    nav,
+    aside,
+    .whatsapp-fijo {
+        display: none;
+    }
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto | Clínica DIW Alicante</title>
+
+    <meta name="description" content="Contacta con Clínica DIW en Alicante. Consulta nuestros datos de contacto 
+    y solicita información sobre nuestros tratamientos dentales.">
+    <meta name="author" content="Clínica DIW">
+    <meta name="copyright" content="Clínica DIW">
+    <meta name="robots" content="index,follow">
+    <meta name="keywords" content="clínica dental, Alicante, implantes dentales, ortodoncia, odontología">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="assests/css/estilos.css">
+<link rel="stylesheet" href="assests/css/impresion.css" media="print">
+</head>
+<body>
+    
+<header>
+    <h1>CLÍNICA DIW</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="index.html#servicios">Servicios</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+</nav>
+
+<section>
+    <h2>Formulario de contacto</h2>
+
+    <form action="#" method="POST">
+
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"
+            placeholder="Introduce tu nombre"
+            maxlength="40"
+            pattern="[A-Za-zÁÉÍÓÚÜÑáéíóúüñ0-9 ]+"
+            required autofocus>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"
+            placeholder="Introduce tu email" required>
+            <br><br>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad"
+            min="18" max="99"
+            placeholder="Introduce tu edad" required>
+            <br><br>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono"
+            placeholder="Introduce tu teléfono" required>
+            <br><br>
+
+            <label for="consulta">Consulta:</label>
+            <textarea id="consulta" name="consulta"
+            placeholder="Escribe tu consulta" required></textarea>
+            <br><br>
+
+            <input type="checkbox" id="privacidad"
+            name="privacidad" required>
+            <label for="privacidad">
+                Acepto la política de privacidad y cookies
+            </label>
+
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+    <h2>Datos de contacto</h2>
+
+        <p>Clínica DIW - Alicante</p>
+
+        <p>Teléfono: <a href="tel:+34965000000">965 000 000</a>
+        </p>
+
+        <p>Email: info@clinicadiw.com</p>
+</section>
+
+</body>
+</html>
