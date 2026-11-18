@@ -1,0 +1,10 @@
+/* ACTIVIDAD 4.2.1 - Ocultar elementos innecesarios al imprimir */
+@media print {
+    header,
+    footer,
+    nav,
+    aside,
+    .whatsapp-fijo {
+        display: none;
+    }
+}
